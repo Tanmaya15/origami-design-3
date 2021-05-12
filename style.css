@@ -1,0 +1,54 @@
+<style>
+            h1 {
+                color: brown;
+            }
+            .header{
+                background-color:black;
+                display:flex;
+                justify-content:space-between;
+                margin: 5px 10px;
+                padding: 2px;
+                text-decoration: underline double #f0f125 4px;
+            }
+            .grid{
+                margin: 5px;
+                display:flex;
+                flex-wrap: wrap;
+                border:solid;
+                justify-content: space-around;
+                background-color: white;
+                background-image: url("co.png");
+            }
+            .footer{
+                display:flex;
+                justify-content: flex-end;
+            }
+            p,h2{
+                text-align: center;
+            }
+            .grid img{
+                border: 2px solid black;
+                border-radius: 50px;
+            }
+            .item{
+                border: solid;
+                border-radius: 20px;
+                background-color:whitesmoke;
+
+                width: 310px;
+                font-family: fantasy;
+            }
+            .menu{
+                display: flex;
+                justify-content: space-between;
+                background-color: black;
+                font-size: 20px;
+                font-family: sans-serif;
+                font-weight: 400;
+                color: white;
+            }
+
+            body{
+                background-color:#a5b3c0;
+            }
+        </style>
